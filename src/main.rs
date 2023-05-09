@@ -13,25 +13,18 @@ fn parse(input: &str) -> Vec<(String, String)> {
         ",
     )
     .unwrap();
+    fn part(caps: &regex::Captures, name: &str) -> String {
+        "  ".to_string()
+            + &caps
+                .name(name)
+                .expect("parse error")
+                .as_str()
+                .trim_end()
+                .replace('\n', "\r\n  ")
+    }
+
     r.captures_iter(input)
-        .map(|caps| {
-            (
-                "  ".to_string()
-                    + &caps
-                        .name("Q")
-                        .expect("parse error")
-                        .as_str()
-                        .trim_end()
-                        .replace('\n', "\r\n  "),
-                "  ".to_string()
-                    + &caps
-                        .name("A")
-                        .expect("parse error")
-                        .as_str()
-                        .trim_end()
-                        .replace('\n', "\r\n  "),
-            )
-        })
+        .map(|caps| (part(&caps, "Q"), part(&caps, "A")))
         .collect()
 }
 
@@ -50,17 +43,29 @@ fn main() {
     let mut i = 0;
     let mut on = false;
 
+    print!("{}", termion::cursor::Hide);
+
     let mut stdout = std::io::stdout().into_raw_mode().unwrap();
 
-    print!(
-            "{}{}{}\r\n  Use the arrow keys to move around, and press q to exit.\r\n\r\n  ({}/{})\r\n\r\n{}\r\n\r\n",
-            termion::cursor::Goto(1, 1),
-            termion::cursor::Hide,
-            termion::clear::All,
-            i + 1,
-            flashcards.len(),
-            flashcards[i].0
-        );
+    fn print_screen(flashcards: &Vec<(String, String)>, i: usize, on: bool) {
+        print!("{}{}", termion::cursor::Goto(1, 1), termion::clear::All);
+
+        if i == flashcards.len() {
+            print!("\r\n  finished! press left to go back, right to reshuffle and start over.");
+        } else {
+            print!(
+                "\r\n  Use the arrow keys to move around, and press q to exit.\r\n\r\n  ({}/{})\r\n\r\n",
+                i + 1,
+                flashcards.len(),
+            );
+            print!("{}\r\n\r\n", flashcards[i].0);
+            if on {
+                print!("{}\r\n\r\n", flashcards[i].1);
+            }
+        }
+    }
+
+    print_screen(&flashcards, i, on);
     stdout.flush().unwrap();
 
     for c in std::io::stdin().keys() {
@@ -84,22 +89,7 @@ fn main() {
             Key::Down | Key::Up => on = !on,
             _ => {}
         }
-        print!("{}{}", termion::cursor::Goto(1, 1), termion::clear::All);
-
-        if i == flashcards.len() {
-            print!("\r\n  finished! press left to go back, right to reshuffle and start over.");
-        } else {
-            print!(
-                "\r\n  Use the arrow keys to move around, and press q to exit.\r\n\r\n  ({}/{})\r\n\r\n",
-                i + 1,
-                flashcards.len(),
-            );
-            print!("{}\r\n\r\n", flashcards[i].0);
-            if on {
-                print!("{}\r\n\r\n", flashcards[i].1);
-            }
-        }
-
+        print_screen(&flashcards, i, on);
         stdout.flush().unwrap();
     }
     print!("{}", termion::cursor::Show);
