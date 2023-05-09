@@ -29,8 +29,7 @@ fn parse(input: &str) -> (Vec<(String, String)>, usize) {
             .as_str()
             .trim_end()
             .lines()
-            .map(|line| format!("  │  {:card_width$}  │  ", line))
-            .intersperse("\r\n".to_string())
+            .map(|line| format!("  │  {:card_width$}  │  \r\n", line))
             .collect()
     }
 
@@ -92,7 +91,7 @@ fn main() {
                 s.num_starred,
                 s.flashcards.len()
             );
-            print!("  ({}/{})\r\n\r\n", s.indices.len(), s.indices.len(),);
+            print!("  ({}/{})\r\n\r\n", s.indices.len(), s.indices.len());
             if !s.on {
                 print!("  will study starred cards only. press up or down to flip\r\n\r\n");
             } else {
@@ -116,10 +115,10 @@ fn main() {
                 }
             );
             print!("  ┌──{:─<1$}──┐\r\n", "", s.card_width);
-            print!("{}\r\n", s.flashcards[s.indices[s.i]].0);
+            print!("{}", s.flashcards[s.indices[s.i]].0);
             if s.on {
                 print!("  ├──{:─<1$}──┤\r\n", "", s.card_width);
-                print!("{}\r\n", s.flashcards[s.indices[s.i]].1);
+                print!("{}", s.flashcards[s.indices[s.i]].1);
             }
             print!("  └──{:─<1$}──┘\r\n\r\n", "", s.card_width);
         }
