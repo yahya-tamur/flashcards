@@ -1,18 +1,436 @@
-Q: What is the supreme law of the land?
+60 (this is the card width. the rest of the first line is ignored)
+Q  1: What is the supreme law of the land?
 A: the Constitution
 
-Q: What does the Constitution do?
+Q  2: What does the Constitution do?
 A:
  * sets up the government
  * defines the government
  * protects the basic rights of Americans
 
-Q: The idea of self-government is in the first three words of the Constitution.
-What are these words?
+Q  3:
+The idea of self-government is in the first three words of
+the Constitution. What are these words?
 A: We the People
 
-Q: What is an amendment?
+Q  4: What is an amendment?
 A:
  * a change (to the Constitution)
  * an addition (to the Constitution)
+
+Q  5:
+What do we call the first ten amendments to the
+Constitution?
+A: the Bill of Rights
+
+Q  6:
+What is one right or freedom from the First Amendment?
+A:
+ * speech
+ * religion
+ * assembly
+ * press
+
+Q  7: How many amendments does the Constitution have?
+A: twenty-seven
+
+Q  8: What did the Declaration of Independence do?
+A: declared our independence from Great Britain
+
+Q  9:
+What are two rights in the Declaration of Independence?
+A:
+ * life
+ * liberty
+ * pursuit of happiness
+
+Q 10: What is freedom of religion?
+A: You can practice any religion, or not practice a
+religion.
+
+Q 11: What is the economic system in the United States?
+A:
+ * capitalist economy
+ * market economy
+
+Q 12: What is the "rule of law"?
+A: No one is above the law.
+
+Q 13: Name one branch or part of the government.
+A: executive, legislative, judicial
+
+Q 14:
+What stops one branch of government from becoming too
+powerful?
+A: checks and balances
+
+Q 15: Who is in charge of the executive branch?
+A: the President
+
+Q 16: Who makes federal laws?
+A: the Congress
+
+Q 17: What are the two parts of the US Congress?
+A: the Senate and the House of Representatives
+
+Q 18: How many US Senators are there?
+A: one hundred
+
+Q 19: We elect a US Senator for how many years?
+A: six
+
+Q 20: Who is one of your state's US Senators now?
+A: Dianne Feinstein, Alex Padilla
+
+Q 21:
+The House of Representatives has how many voting members?
+A: four hundred thirty-five (435)
+
+Q 22: We elect a US Representative for how many years?
+A: two (2)
+
+Q 23: Name your US Representative.
+A: (Pleasanton) Eric Swalwell
+
+Q 24: Who does a US Senator represent?
+A: All people of the state
+
+Q 25:
+Why do some states have more Representatives than other
+states?
+A: Some states have more people
+
+Q 26: We elect a President for how many years?
+A: four (4)
+
+Q 27: In what month do we vote for President?
+A: November
+
+Q 28:
+What is the name of the President of the United States now?
+A: Joe Biden
+
+Q 29:
+What is the name of the Vice President of the United States
+now?
+A: Kamala Harris
+
+Q 30:
+If the President can no longer serve, who becomes President?
+A: The Vice President
+
+Q 31:
+If both the President and the Vice President can no longer
+serve, who becomes President?
+A: The Speaker of the House
+
+Q 32:
+Who is the Commander in Chief of the military?
+A: the President
+
+Q 33: Who signs bills to become laws?
+A: the President
+
+Q 34: Who vetoes bills?
+A: the President
+
+Q 35: What does the President's Cabinet do?
+A: advises the President
+
+Q 36: What are two Cabinet-level positions?
+A:
+* Secretary of Defense
+* Attorney General
+* Vice President
+* Secretary of Agriculture
+* Secretary of State
+
+Q 37: What does the judicial branch do?
+A:
+ * reviews laws
+ * decides if a law goes against the Constitution
+
+Q 38: What is the highest court in the United States?
+A: the Supreme Court
+
+Q 39: How many justices are on the Supreme Court?
+A: nine (9)
+
+Q 40: Who is the Chief Justice of the United States now?
+A: John Roberts
+
+Q 41:
+Under our Constitution, some powers belong to the federal
+government. What is one power of the federal government?
+A: to print money, to declare war
+
+Q 42:
+Under our Constitution, some powers belong to the states.
+What is one power of the states?
+A:
+ * give driver's licences
+ * provide schooling and education
+ * provide protection (police)
+
+Q 43: Who is the Governor of your state now?
+A: Gavin Newsom
+
+Q 44: What is the capital of your state?
+A: Sacramento
+
+Q 45:
+What are the two major political parties in the United
+States?
+A: Democratic and Republican Parties
+
+Q 46: What is the political party of the President now?
+A: Democratic Party
+
+Q 47:
+What is the name of the Speaker of the House of
+Representatives now?
+A: Kevin McCarthy
+
+Q 48:
+There are four amendments to the Constitution about who can
+vote. Describe one of them.
+A: Citizens 18 and older can vote. (women, no poll tax)
+
+Q 49:
+What is one responsibility that is only for United States
+citizens?
+A: serve on a jury, vote in a federal elecction
+
+Q 50: Name one right only for United States citizens.
+A: vote in a federal election, run for federal office
+
+Q 51:
+What are two rights of everyone living in the United States?
+A:
+ * freedom of speech
+ * freedom of religion
+ * the right to bear arms
+
+Q 52:
+What do we show loyalty to when we say the Pledge of
+Allegiance?
+A: the United States (also the flag)
+
+Q 53:
+What is one promise you make when you become a United States
+citizen?
+A:
+ * serve in the US military
+ * obey the laws of the United States
+ * defend the Constitution and laws of the United States
+
+Q 54: How old do citizens have to be to vote for President?
+A: eighteen (18) and older
+
+Q 55:
+What are two ways that Americans can participate in their
+democracy?
+A: vote, join a political party, run for office
+
+Q 56:
+When is the last day you can send in federal income tax
+forms?
+A: April 15
+
+Q 57: When must all men register for the Selective Service?
+A:
+ * at age eighteen (18)
+ * between eighteen (18) and twenty-six (26)
+
+Q 58: What is one reason colonists came to America?
+A: religious freedom, escape persecution
+
+Q 59: Who lived in America before the Europeans arrived?
+A: Native Americans
+
+Q 60:
+What group of people was taken to America and sold as
+slaves?
+A: Africans
+
+Q 61: Why did the colonists fight the British?
+A:
+ * because of high taxes (taxation without representation)
+ * because they didn't have self-government
+
+Q 62: Who wrote the Declaration of Independence?
+A: Thomas Jefferson
+
+Q 63: When was the Declaration of Independence adopted?
+A: July 4, 1776
+
+Q 64: There were 13 original states. Name three.
+A:
+  1) New York
+  2) New Jersey
+  3) Delaware
+  4) Maryland
+  5) North Carolina
+  6) South Carolina
+  7) New Hampshire
+  8) Pennsylvania
+  9) Virginia
+ 10) Georgia
+ 11) Rhode Island
+ 12) Connecticut
+ 13) Massachusetts
+
+Q 65: What happened in the Constitutional Convention?
+A: The Constitution was written.
+
+Q 66: When was the Constitution written?
+A: 1787
+
+Q 67:
+The Federalist Papers supported the passage of the US
+Constitution. Name one of the writers.
+A:
+ * James Madison
+ * Alexander Hamilton
+ * John Jay
+ * Publius
+
+Q 68: What is one thing Benjamin Franklin is famous for?
+A:
+ * US diplomat
+ * oldest member of the Constitutional Convention
+ * started the first free libraries
+ * first Postmaster General of the United States
+
+Q 69: Who is the "Father of Our Country"?
+A: George Washington
+
+Q 70: Who was the first President?
+A: George Washington
+
+Q 71:
+What territory did the United States by from France in 1803?
+A: the Louisiana Territory
+
+Q 72:
+Name one US war fought by the United States in the 1800s.
+A:
+ * War of 1812
+ * Civil War
+ * Spanish-American War
+ * Mexican-American War
+
+Q 73: Name the US war between the North and the South.
+A: the Civil War
+
+Q 74: Name one problem that led to the Civil War.
+A:
+ * slavery
+ * economic reasons
+ * states' rights
+
+Q 75: What was one important thing that Abraham Lincoln did?
+A:
+ * freed the slaves (Emancipation Proclamation)
+
+Q 76: What did the Emancipation Proclamation do?
+A: freed the slaves
+
+Q 77: What did Susan B Anthony do?
+A: fought for women's rights
+
+Q 78: Name one war fought by the United States in the 1900s.
+A:
+ * World War I,
+ * World War II
+ * Korean War
+
+Q 79: Who was the President during World War I?
+A: Woodrow Wilson
+
+Q 80:
+Who was President during the Great Depression and World War
+II?
+A: Franklin Roosevelt
+
+Q 81: Who did the United States fight in World War II?
+A: Japan, Germany, Italy
+
+Q 82:
+Before he was President, Eisenhower was a general. What war
+was he in?
+A: World War II
+
+Q 83:
+During the Cold War, what was the main concern of the United
+States?
+A: Communism
+
+Q 84: What movement tried to end racial discrimination?
+A: the civil rights movement
+
+Q 85: What did Martin Luther King Jr. do?
+A: fought for civil rights
+
+Q 86:
+What major event happened on September 11, 2001, in the
+United States?
+A: Terrorists attacked the United States.
+
+Q 87: Name one American Indian tribe in the United States.
+A: Cherokee, Navajo, Arawak
+
+Q 88:
+Name one of the two longest rivers in the United States.
+A: Missouri River, Mississippi River
+
+Q 89: What ocean is on the West Coast of the United States?
+A: Pacific Ocean
+
+Q 90: What ocean is on the East Coast of the United States?
+A: Atlantic Ocean
+
+Q 91: Name one US territory.
+A: Puerto Rice, Guam, US Virgin Islands
+
+Q 92: Name one state that borders Canada.
+A:
+ * Washington
+ * Alaska
+ * New York
+ * Maine
+
+Q 93: Name one state that borders Mexico.
+A:
+ * California
+ * Arizona
+ * Texas
+ * New Mexico
+
+Q 94: What is the capital of the United States?
+A: Washington DC
+
+Q 95: Where is the Statue of Liberty?
+A: New York (Harbor), Liberty Island
+
+Q 96: Why does the flag have 13 stripes?
+A: the stripes represent the 13 original colonies.
+
+Q 97: Why does the flag have 50 stars?
+A: the stars represent the 50 states
+
+Q 98: What is the name of the national anthem?
+A: The Star-Spangled Banner
+
+Q 99: When do we celebrate Independence Day?
+A: July 4
+
+Q 100: Name two national US holidays.
+A:
+ * New Year's Day
+ * Veterans Day
+ * Thanksgiving
+ * Christmas
+ * Memorial Day
+ * Independence Day
 
