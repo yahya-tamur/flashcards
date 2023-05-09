@@ -1,6 +1,6 @@
 use rand::seq::SliceRandom;
 use regex::Regex;
-use std::io::{stdin, stdout, Write};
+use std::io::Write;
 use termion::event::Key;
 use termion::input::TermRead;
 use termion::raw::IntoRawMode;
@@ -8,8 +8,8 @@ use termion::raw::IntoRawMode;
 fn parse(input: &str) -> Vec<(String, String)> {
     let r = Regex::new(
         r"(?x)
-        (Q:|)(\ +|\n*)(?P<Q>(.|\n)*?)
-        A:(\ +|\n*)(?P<A>(.|\n)*?)(Q:|\z)
+        (Q:|)\ *\n*(?P<Q>(.|\n)*?)
+        A: *\n*(?P<A>(.|\n)*?)(Q:|\z)
         ",
     )
     .unwrap();
@@ -37,20 +37,20 @@ fn parse(input: &str) -> Vec<(String, String)> {
 
 fn main() {
     let mut rng = rand::thread_rng();
-    let input = std::fs::read_to_string(
-        std::env::args()
-            .nth(1)
-            .expect("please specify the flashcard file in the first argument"),
-    )
-    .expect("couldn't read file");
-    let mut flashcards = parse(&input);
-    println!("{:#?}", flashcards);
+    let mut flashcards = parse(
+        &std::fs::read_to_string(
+            std::env::args()
+                .nth(1)
+                .expect("please specify the flashcard file in the first argument"),
+        )
+        .expect("couldn't read file"),
+    );
     flashcards.shuffle(&mut rng);
+
     let mut i = 0;
     let mut on = false;
 
-    let stdin = stdin();
-    let mut stdout = stdout().into_raw_mode().unwrap();
+    let mut stdout = std::io::stdout().into_raw_mode().unwrap();
 
     print!(
             "{}{}{}\r\n  Use the arrow keys to move around, and press q to exit.\r\n\r\n  ({}/{})\r\n\r\n{}\r\n\r\n",
@@ -63,7 +63,7 @@ fn main() {
         );
     stdout.flush().unwrap();
 
-    for c in stdin.keys() {
+    for c in std::io::stdin().keys() {
         match c.unwrap() {
             Key::Char('q') | Key::Ctrl('c') => break,
             Key::Left => {
